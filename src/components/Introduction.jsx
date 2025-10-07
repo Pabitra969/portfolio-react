@@ -19,7 +19,7 @@ const Introduction = () => {
           </a>
 
           <a
-            href="/resume.pdf"
+            href="/Pabitra_Resume.pdf"
             rel="noopener noreferrer"
             className="mt-5 sm:ml-5 bg-bluish text-black px-5 py-2 rounded hover:cursor-pointer inline-block"
           >
