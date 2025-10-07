@@ -26,10 +26,10 @@ const Projects = () => {
 
   return (
     <>
-      <div id="project" class="scroll-mt-30 max-sm:pl-10 md:pl-20 lg:pl-35 max-sm:pr-10 md:pr-20 lg:pr-35 lg:mb-30 mb-15" >
+      <div id="project" className="scroll-mt-30 pl-10 md:pl-20 lg:pl-35 pr-10 md:pr-20 lg:pr-35 lg:mb-30 mb-15" >
         <h1 class="text-2xl font-bold" >Projects</h1>
         <p class="pt-5">Here are a few projects I've worked on recently.</p>
-        <div class="flex flex-wrap gap-10 mt-10">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10 mt-10">
           {projects.map((p, i) => (
             <Card key={i} title={p.title} body={p.body} link={p.link} />
           ))}

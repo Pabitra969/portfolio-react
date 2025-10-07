@@ -6,7 +6,7 @@ const Header = () => {
   const [ToggleEvent, setToggleEvent] = useState(false);
 
   return (
-    <div className="sticky top-0 bg-primary-50 flex justify-between items-center pt-10 pb-10 lg:pl-40 lg:pr-40 md:pl-20 md:pr-20 max-sm:pl-10 max-sm:pr-10 text-bluish max-h-4" >
+    <div className="sticky top-0 bg-primary-50 flex justify-between items-center pt-10 pb-10 lg:pl-40 lg:pr-40 md:pl-20 md:pr-20 sm:pl-10 sm:pr-10 pl-10 pr-10 text-bluish max-h-4" >
       <div class="text-4xl font-bold" >Pabitra</div>
       <div class={clsx("sm:hidden", ToggleEvent)} id='hamburger-btn' onClick={() => setToggleEvent(!ToggleEvent)} >
         {ToggleEvent ?
