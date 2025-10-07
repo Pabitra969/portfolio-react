@@ -1,0 +1,16 @@
+@import "tailwindcss";
+
+@theme {
+  --color-primary-50: #091121;
+  --color-bluish: #7cd4fb;
+  --color-boxcolor: #161e29;
+}
+
+body {
+  @apply bg-primary-50 text-white;
+}
+
+/* enable smooth scrolling for anchor links */
+html {
+  scroll-behavior: smooth;
+}
