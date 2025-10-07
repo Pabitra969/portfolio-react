@@ -5,7 +5,7 @@ const Introduction = () => {
     <section class=" md:mt-30 sm:mt-15 mb-15 lg:mb-30 lg:mr-20 lg:ml-18">
       <div class="flex justify-center items-center gap-6 max-lg:block" >
         <div id="image" class="bg-bluish h-60 w-60 rounded-full flex items-center justify-center sm:ml-15 max-sm:ml-10" >
-          <img src="/src/assets/Profile_Image.jpeg" alt="Profile Image Pabitra" class="rounded-full h-54 w-54" />
+          <img src="/Profile_Image.jpeg" alt="Profile Image Pabitra" class="rounded-full h-54 w-54" />
         </div>
         <div id="text" class="max-lg:m-10" >
           <h1 class="text-4xl">Hello this is Pabitra here.</h1>
