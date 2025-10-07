@@ -7,7 +7,7 @@ const Contact = () => {
       <p className="pt-5">If you'd like to work together or have questions, reach out — I usually reply within a few days.</p>
       <div className="flex flex-wrap gap-10 mt-5 items-center">
         <button className="self-center bg-bluish text-primary-50 px-6 py-2 rounded-lg hover:cursor-pointer">
-          <a href="mailto:pkg2000696@gmail.com">Email Me</a>
+          <a href="mailto:pabitra.ghorai@provis.ai">Email Me</a>
         </button>
 
         <div className="flex items-center self-center gap-2">
